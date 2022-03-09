@@ -1,0 +1,180 @@
+/* Chamada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+/* reset CSS mini */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* UTILS */
+html {
+    font-size: 16px;
+}
+
+.link-click {
+    text-decoration: solid, underline;
+    color: #32CD32;
+    background-color: transparent;
+}
+
+/* 
+cores
+    #32CD32;
+    #228B22;
+    #fff;
+    black;
+    rgba(0, 0, 0, 0.288) transparencia
+*/
+/* FIM UTILS */
+
+
+
+/* LOGIN FORMS */
+
+.background-login{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, .5), #00000000)
+        ,url(../img/pexels-pixabay-235922.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 44px;
+}
+
+.login-form h1 {
+    text-decoration: underline;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: .5rem 0;
+}
+
+.login-form label {
+    font-size: 1rem;
+    width: 50%;
+    margin: .5rem 0;
+}
+
+.login-form input {
+    font-size: .8rem;
+    width: 70%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.form-fill{
+    background-color: #fff;
+    text-align: center;
+    font-size: .5rem;
+}
+
+.btn-color-login{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-color-login:hover{
+    color:black;
+}
+
+.btn-color-button{
+    background-color: #32CD32;
+    transition: .5s;
+}
+
+.btn-color-button:hover {
+    background-color: #228B22;
+}
+
+.separator-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* END LOGIN FORMS */
+
+/* material-icons */
+#icon-btn{
+    font-size: 1.5rem;
+}
+/* fim material icons */
+
+/* profile */
+.user-photo{
+    display: inline-block;
+    border-radius: 50%;
+    border: solid #32CD32;
+    width: 15rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.user-name{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.warning {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* fim profile */
+
+
+
+
+
+
+
+
+
+
+
+
+
